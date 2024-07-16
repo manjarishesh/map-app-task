@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.map {
+    height: 90vh; /* Adjust height to make room for controls */
+    width: 100vw;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.btn.btn-primary.btn-custom {
+    background-color: #008CBA !important;
+    color: white; /* Ensuring the text color is white */
+
+}
+
+#main_text{
+    text-align: center;
+}
